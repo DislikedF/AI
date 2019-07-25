@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  AICourseWork.cpp
+AICourseWork.obj : error LNK2001: unresolved external symbol "void __cdecl cv::equalizeHist(class cv::_InputArray const &,class cv::_OutputArray const &)" (?equalizeHist@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z)
+AICourseWork.obj : error LNK2001: unresolved external symbol "public: int __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &)const " (?predict@FaceRecognizer@face@cv@@QEBAHAEBV_InputArray@3@@Z)
+AICourseWork.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::face::FaceRecognizer::predict(class cv::_InputArray const &,int &,double &)const " (?predict@FaceRecognizer@face@cv@@QEBAXAEBV_InputArray@3@AEAHAEAN@Z)
+C:\Users\ryanf\Documents\AICourseWork\Code\x64\Release\AICourseWork.exe : fatal error LNK1120: 3 unresolved externals
